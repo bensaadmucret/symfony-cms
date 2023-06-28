@@ -1,5 +1,9 @@
-export function Dropdowns()  {
+import {Dropdown} from "bootstrap";
+
+export const Dropdowns = () =>  {
     const dropdownElementList = document.querySelectorAll('.dropdown-toggle')
-    const dropdownList =
-        [...dropdownElementList].map(dropdownToggleEl => new bootstrap.Dropdown(dropdownToggleEl))
+    let dropdownList;
+    return dropdownList =
+        [...dropdownElementList].map(dropdownToggleEl => new Dropdown(dropdownToggleEl))
+
 }

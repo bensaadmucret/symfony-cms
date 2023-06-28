@@ -1,3 +1,12 @@
-body {
-    background-color: lightgray;
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "reboot";
+@import "variables";
+@import "aos.css";
+@import "date-picker";
+@import "theme.css";
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
 }
